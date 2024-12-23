@@ -1,0 +1,2 @@
+# React useEffect setInterval without cleanup
+This example demonstrates a common error in React: using `setInterval` within a `useEffect` hook without providing a cleanup function. This can lead to memory leaks and unexpected behavior.  The solution showcases how to properly use `setInterval` with cleanup in React's `useEffect` hook.
